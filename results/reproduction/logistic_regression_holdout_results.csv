@@ -1,0 +1,2 @@
+model,cv_auc,holdout_auc,accuracy,sensitivity,specificity,brier_score,true_negative,false_positive,false_negative,true_positive,n_train,n_holdout,n_features_rfe,n_nonzero_coefficients,best_C,best_penalty
+Logistic Regression,0.8702,0.877,0.8,0.8089,0.7917,0.1417,133,35,30,127,1299,325,34,18,0.1,l1
