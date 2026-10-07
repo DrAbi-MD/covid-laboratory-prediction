@@ -1,0 +1,7 @@
+model,validation_stage,source,n,auc,accuracy,sensitivity,specificity,brier_score
+Logistic Regression,Development hold-out,Reproduced,325.0,0.877,0.8,0.8089,0.7917,0.1417
+Logistic Regression,Internal-external validation,Reproduced,58.0,0.8949047619047619,0.8106896551724136,0.7026666666666667,0.9264285714285716,0.1419237381095005
+Logistic Regression,Historical external validation,Reproduced,54.0,,0.9074074074074074,,0.9074074074074074,0.0709021165990224
+Random Forest,Development hold-out,Reproduced,325.0,0.8809,0.8062,0.7962,0.8155,0.1411
+Random Forest,Internal-external validation,Reproduced,58.0,0.8361904761904762,0.6665517241379313,0.3926666666666667,0.9600000000000002,0.2028946466324837
+Random Forest,Historical external validation,Reproduced,54.0,,0.9814814814814816,,0.9814814814814816,0.0510178415303657

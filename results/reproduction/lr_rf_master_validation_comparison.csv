@@ -1,0 +1,9 @@
+model,validation_stage,source,n,auc,accuracy,sensitivity,specificity,brier_score,notes
+Logistic Regression,Development hold-out,Published,,0.83,0.83,0.85,0.82,0.14,Standard COVID-specific model performance reported by Cabitza et al.
+Logistic Regression,Development hold-out,Reproduced,325.0,0.877,0.8,0.8089,0.7917,0.1417,"80/20 stratified hold-out from the 1,624-case OSR development cohort."
+Logistic Regression,Internal-external validation,Reproduced,58.0,0.8949047619047619,0.8106896551724136,0.7026666666666667,0.9264285714285716,0.1419237381095005,Mean of 100 repeated stratified 50/50 IOG splits; public CSV contains 28 negative and 30 positive IOG cases rather than the published 29/29 distribution.
+Logistic Regression,Historical external validation,Reproduced,54.0,,0.9074074074074074,,0.9074074074074074,0.0709021165990224,"54 historical 2018 cases, all COVID-negative; AUC and sensitivity are not estimable and accuracy equals specificity."
+Random Forest,Development hold-out,Published,,0.84,0.84,0.84,0.84,0.12,Standard COVID-specific model performance reported by Cabitza et al.
+Random Forest,Development hold-out,Reproduced,325.0,0.8809,0.8062,0.7962,0.8155,0.1411,"80/20 stratified hold-out from the 1,624-case OSR development cohort."
+Random Forest,Internal-external validation,Reproduced,58.0,0.8361904761904762,0.6665517241379313,0.3926666666666667,0.9600000000000002,0.2028946466324837,Mean of 100 repeated stratified 50/50 IOG splits; public CSV contains 28 negative and 30 positive IOG cases rather than the published 29/29 distribution.
+Random Forest,Historical external validation,Reproduced,54.0,,0.9814814814814816,,0.9814814814814816,0.0510178415303657,"54 historical 2018 cases, all COVID-negative; AUC and sensitivity are not estimable and accuracy equals specificity."
