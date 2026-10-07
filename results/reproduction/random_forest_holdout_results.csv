@@ -1,0 +1,2 @@
+model,cv_auc,holdout_auc,accuracy,sensitivity,specificity,brier_score,true_negative,false_positive,false_negative,true_positive,n_train,n_holdout,n_features_rfe,best_n_estimators,best_max_depth,best_min_samples_split
+Random Forest,0.8884669509594882,0.8808765544434335,0.8061538461538461,0.7961783439490446,0.8154761904761905,0.1410574142756088,137,31,32,125,1299,325,34,300,None,5
